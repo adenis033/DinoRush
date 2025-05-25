@@ -1,76 +1,93 @@
-# DinoRush
+# 🦖 DinoRush – Survival Adventure Game
 
-DinoRush is an exciting survival adventure game where the player wakes up on a random island, trapped with a relentless dinosaur. To escape, the player must gather essential items and complete challenges. Starting with finding a backpack and ending with a helicopter rescue, each task brings the player closer to freedom.
+**DinoRush** is a thrilling survival game where the player is stranded on a mysterious island—only to discover they’re being hunted by a relentless dinosaur. To escape, players must explore the island, collect key items, and unlock the path to rescue. With puzzle-like objectives and dynamic enemy AI, every moment counts in this stealth-survival experience.
 
-## Features
-
-- **Survival Gameplay:** Gather resources, solve puzzles, and escape the island.
-- **Dinosaur AI:** A relentless dinosaur chases the player, adding tension.
-- **Key Challenges:** Complete tasks to escape the island.
-- **Dynamic Environment:** Navigate an island filled with obstacles and dangers.
+Built using C++ and OpenGL, DinoRush delivers classic low-level game mechanics with a focus on tension, exploration, and goal-oriented gameplay.
 
 ---
 
-## How the Game Works
+## ✨ Features
 
-### Gameplay
-- **Objective:** Complete the following tasks:
-  1. **Find the Backpack** - Start gathering supplies.
-  2. **Find the Ghillie Suit** - Equip yourself for stealth.
-  3. **Find the Map** - Gain knowledge of the island’s layout.
-  4. **Locate the Lighthouse** - The lighthouse is key to your escape.
-  5. **Find the Key** - Unlock the light mechanism to signal for help.
-  6. **Open the Light** - Activate the lighthouse light to signal a helicopter for rescue.
-  
-### Controls
-- **Movement:** Use the arrow keys or WASD to move.
-- **Interact:** Press 'E' to interact with objects and collect items.
-- **Pause:** Press 'Esc' to pause the game.
+* 🧭 **Exploration & Progression**
+  Find and collect items across the island to unlock the escape route.
+
+* 🦖 **Dinosaur AI**
+  The dinosaur will actively chase the player, increasing the tension with every move.
+
+* 🔓 **Mission Objectives**
+  Complete 6 key tasks to escape the island and signal for helicopter rescue.
+
+* 🌴 **Immersive Island Environment**
+  Navigate around rocks, forests, and cliffs—each area hiding new dangers and opportunities.
 
 ---
 
-## Screenshots
+## 🧩 Gameplay Overview
 
-### Main Menu
-![Main Menu](readme-assets/main-menu.png)
+### 🎯 Objective
 
-### Gameplay
-![Gameplay](readme-assets/gameplay.png)
+To escape, complete the following in order:
 
-### Lighthouse Light Activation
-![Light Activation](readme-assets/lighthouse-light.png)
+1. **🎒 Find the Backpack** – Start your journey and begin collecting.
+2. **🥷 Find the Ghillie Suit** – Gain stealth against the dinosaur.
+3. **🗺️ Find the Map** – Learn the island's layout.
+4. **🚨 Locate the Lighthouse** – Your key to being rescued.
+5. **🗝️ Find the Key** – Activate the light mechanism.
+6. **🔦 Open the Lighthouse Light** – Signal for the helicopter.
+
+### 🎮 Controls
+
+| Action     | Key               |
+| ---------- | ----------------- |
+| Move       | Arrow keys / WASD |
+| Interact   | `E`               |
+| Pause Menu | `Esc`             |
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/adenis033/DinoRush.git
-    ```
+
+   ```bash
+   git clone https://github.com/adenis033/DinoRush.git
+   ```
+
 2. Navigate to the project folder:
-    ```bash
-    cd DinoRush
-    ```
-3. Build the project:
-    ```bash
-    g++ -o DinoRush main.cpp -lGL -lGLU -lglut
-    ```
-4. Run the game:
-    ```bash
-    ./DinoRush
-    ```
+
+   ```bash
+   cd DinoRush
+   ```
+
+3. Compile the game:
+
+   ```bash
+   g++ -o DinoRush main.cpp -lGL -lGLU -lglut
+   ```
+
+4. Run it:
+
+   ```bash
+   ./DinoRush
+   ```
 
 ---
 
-## Contributors
+## 🧠 Technologies Used
 
-This project was developed by:
+* 🖥️ **C++**
+* 🧱 **OpenGL / GLUT**
+* 🎮 Procedural game flow and manual event handling
 
-- **RÂPA Denis-Andrei** - [GitHub Profile](https://github.com/adenis033)
-- **BATAGOI Ana-Maria** - [GitHub Profile](https://github.com/anabat27)
-- **BACCELA Radu** - [GitHub Profile](#)
+---
 
-Link to the project:
+## 💡 Author
 
-- [GitHub Link](https://github.com/adenis033/DinoRush)
+* **RÂPA Denis-Andrei** – [GitHub](https://github.com/adenis033)
+* **BATAGOI Ana-Maria** – [GitHub](https://github.com/anabat27)
+
+---
+
+## 🔗 Repository
+
+* [GitHub – DinoRush](https://github.com/adenis033/DinoRush)
